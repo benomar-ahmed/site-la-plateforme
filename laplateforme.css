@@ -1,0 +1,390 @@
+/*############################################################################################*/
+/* HEADER */
+/* HEADER */
+/* HEADER */
+/*############################################################################################*/
+
+
+
+
+header {
+    background-color: white;
+    padding:1.5%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+body {
+    margin:0;
+    padding:0;
+}
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+.logo {
+    height: 10%;
+    width: 27%;
+}
+
+nav {
+    width: 65%;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    list-style-type: none;
+}
+
+
+/*############################################################################################*/
+/* SECTION HEROS */
+/* SECTION HEROS */
+/* SECTION HEROS */
+/*############################################################################################*/
+
+
+#section1 {
+    background-color: #336699;
+    display: flex;
+    justify-content: space-around;
+}
+
+#Héro_left {
+    align-self: center;
+    color: white;
+    font-size: 150%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Inscrivez-vous {
+    background-color: #FF2063; 
+    padding: 5%;
+    color: white;
+    border: 0;
+    border-radius: 100px;
+    font-size: 92%;
+    font-weight: bold;
+}
+
+#gras {
+    font-weight:bolder;
+}
+
+#Inscription {
+    text-align: center;
+    font-size: 50%
+}
+
+#tête {
+    height: 725px;
+    width: 50%;
+    position: relative;
+    left: 5.5%;
+}
+
+
+/*############################################################################################*/
+/* SECTION 2 */
+/* SECTION 2 */
+/* SECTION 2 */
+/*############################################################################################*/
+
+
+.Titre_section {
+    color: #336699;
+    font-size: 250%;
+    text-align: center;
+    margin-top: 0%;
+    padding-top: 4%;
+    margin-bottom: 4.5%;
+    background-color: #F9F9FD
+}
+
+#section2 {
+    background-color: #F9F9FD;
+}
+
+#sous-section2 {
+    background-color: #F9F9FD;
+    display: flex;
+    justify-content: center;
+}
+
+#image_web_coding {
+    width: 20%;
+    height: 20%;
+}
+
+.image_section2 {
+    height: auto;
+    width: 32%;
+}
+
+#web_coding {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 5%;
+    padding: 1%;
+    padding-left: 0%;
+    padding-right: 0%;
+    color : #336699;
+    font-size: 110%;
+}
+#IA {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 5%;
+    padding: 1%;
+    padding-left: 2%;
+    padding-right: 2%;
+    color : #336699;
+    font-size: 110%;
+}
+#Cyber_Security {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1%;
+    padding-left: 2%;
+    padding-right: 2%;
+    color : #336699;
+    font-size: 110%;
+}
+
+.button_section2 {
+    background-color: #FFCA4B;
+    padding: 6%;
+    color: white;
+    border: 0;
+    border-radius: 100px;
+    font-size: 100%;
+    font-weight: bold;
+}
+
+
+/*############################################################################################*/
+/* SECTION 3 */
+/* SECTION 3 */
+/* SECTION 3 */
+/*############################################################################################*/
+
+
+
+#section3 {
+    background-color: #F9F9FD;
+}
+
+#sous_section3 {
+    display: flex;
+    flex-direction: column;
+}
+
+#Recrutez {
+    display: flex;
+    background-color: #fff;
+    color : #336699;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 2%;
+    font-size: 110%;
+    
+}
+
+#Formations {
+    display: flex;
+    background-color: #fff;
+    color : #336699;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    font-size: 110%;
+}
+
+#Accélérez {
+    display: flex;
+    background-color: #fff;
+    color : #336699;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    font-size: 110%;
+}
+
+.image_section3 {
+    height: 7%;
+    width: 7%;
+    margin: 1%;
+    margin-left: 5%;
+}
+
+.button_section3 {
+    background-color: #FFCA4B;
+    padding: 2%;
+    margin: auto;
+    color: white;
+    border: 0;
+    border-radius: 100px;
+    font-size: 100%;
+    font-weight: bold;
+}
+
+#button_innovation {
+    background-color: #FFCA4B;
+    padding: 2%;
+    margin: auto;
+    color: white;
+    border: 0;
+    border-radius: 100px;
+    font-size: 100%;
+    font-weight: bold;
+    margin-bottom: 10%;
+}
+
+/*############################################################################################*/
+/* SECTION 4 */
+/* SECTION 4 */
+/* SECTION 4 */
+/*############################################################################################*/
+
+
+
+#section4 {
+    background-color: #FFA000;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 1.8%;
+}
+
+#titre_section4 {
+    text-align: center;
+    padding-top: 3%;
+    font-size: 250%;
+    color: white;
+}
+
+#text_section4 {
+    text-align: center;
+    color: white;
+    margin-top: 0%;
+    margin-bottom: 5%;
+    font-size: 120%;
+}
+
+#vidéo-youtube {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+/*############################################################################################*/
+/* FOOTER */
+/* FOOTER */
+/* FOOTER */
+/*############################################################################################*/
+
+footer {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 0%; 
+    background-color: #313131;
+    color: white;
+}
+
+#logo_plateforme_footer {
+    height: 15%;
+    width: 59%;
+    padding-top: 15%
+}
+
+#logo_and_icons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 35%;
+    padding-right: 0%;
+    margin-right: 0%;
+    margin-left: 0%;
+    margin: 0%;
+}
+
+#icons {
+    margin-top: 0%;
+    margin-bottom: 15%;
+    padding-bottom: 15%;
+}
+
+#ul_footer {
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#ul_footer1 {
+    padding-left: 0%;
+    margin-left: 0%;
+}
+
+#ul_footer2 {
+    height: 310px;
+}
+
+#addresse_contact {
+    margin-top: 35px;
+    height:363px;
+    margin-left: 10%;
+}
+
+
+#contact_footer {
+    border: white solid 2px;;
+    background-color: #2F2F2F;
+    border-radius: 2px;
+    color:white;
+    padding: 6%;
+    padding-right: 30%;
+    margin-bottom: 30%;
+    padding-left: 20%;
+}
+
+#April {
+    height: 50%;
+    width: 70%;
+}
+
+
+/*############################################################################################*/
+/* FOOTER SECTION */
+/* FOOTER SECTION */
+/* FOOTER SECTION */
+/*############################################################################################*/
+
+
+#Copyright_footer {
+    background-color: #000000;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+#copyright {
+    margin-left: 1.5%;
+}
+
+#icons_copyright {
+    display: flex;
+}
